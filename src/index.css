@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/font/Montserrat-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("/src/assets/font/Montserrat-Bold.ttf");
+  font-display: swap;
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-bold";
+}
+
+.react-international-phone-country-selector-button,
+.react-international-phone-input-container .react-international-phone-input {
+  border: none;
+  background-color: transparent;
+}
+
+.custom-border::before {
+  content: "";
+  position: absolute;
+  right: -8.5px;
+  top: -8.5px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  background-color: #f7f7f7;
+  z-index: 10;
+  border-bottom: 2px solid #f46322;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+@media (min-width: 1024px) {
+  .slick-dots li button:before {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 640px) {
+  .slick-dots li button:before {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .slick-dots {
+    display: none !important;
+  }
+}
+.slick-dots li.slick-active button:before {
+  font-size: 13px;
+}
+
+.static-text {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cursor-hero {
+  font-size: 17px;
+}
+
+@media (min-width: 340px) {
+  .typewriter-text {
+    font-size: 14px; /* Example size for medium screens */
+  }
+}
+@media (min-width: 768px) {
+  .typewriter-text {
+    font-size: 18px; /* Example size for medium screens */
+  }
+}
+
+.css-hlgwow {
+  padding-left: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  .no-scrollbar-original::-webkit-scrollbar {
+    height: 5px;
+  }
+  .no-scrollbar-original::-webkit-scrollbar-track {
+    background: #888;
+  }
+
+  .no-scrollbar-original::-webkit-scrollbar-thumb {
+    background: #4292ad;
+  }
+}
+@media (min-width: 300px) and (max-width: 1024px) {
+  .no-scrollbar-original::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  height: 5px;
+  cursor: pointer;
+}
+.no-scrollbar::-webkit-scrollbar-track {
+  background: #888;
+  cursor: pointer;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: #4292ad;
+  cursor: pointer;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
