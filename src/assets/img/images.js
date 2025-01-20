@@ -65,7 +65,7 @@ import aboutImg from "./aboutImg.png";
 
 import fadedCircle from "./fadedCircle.png";
 
-import heroSectionImg2 from "./heroSectionImg2.webp";
+import heroSectionImg2 from "./heroSectionImg2.png";
 
 // blog images
 import blogImg1 from "./blogImg1.webp";
